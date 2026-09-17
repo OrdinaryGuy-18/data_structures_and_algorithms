@@ -8,8 +8,6 @@ class Solution {
             if(nums[i]==0) currSum-=1;
             else currSum+=1;
 
-            System.out.print(currSum+" ");
-
             if(map.containsKey(currSum)){
                 maxLen=Math.max(maxLen,i-map.get(currSum));
             }
