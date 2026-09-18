@@ -5,7 +5,7 @@ class Solution {
 
         int currSum=0;
         for(int i=0;i<nums.length;i++){
-            currSum+=nums[i]%k;
+            currSum+=nums[i];
             int remainder=currSum%k;
 
             if(map.containsKey(remainder)){
